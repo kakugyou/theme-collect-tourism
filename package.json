@@ -1,0 +1,23 @@
+{
+  "name": "fis3-conf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fis-conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run fis3-build",
+    "clean": "rimraf ./output && mkdir output",
+    "fis3-build": "fis3 release prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "fis3-deploy-zip": "^2.0.0",
+    "fis3-packager-deps-pack": "^0.1.2",
+    "npm-run-all": "^2.1.2",
+    "rimraf": "^2.6.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
