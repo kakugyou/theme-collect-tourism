@@ -1,0 +1,9 @@
+html
+  body
+    #content.home(style='opacity: 1;')
+      .posts.cf
+        each val in posts
+          article.works-post.onscreen
+            a(href=val.href, title=val.title)
+              figure
+                img.lazy(src=val.thumbnail, data-original=val.thumbnail, srcset='', alt='Stay Classy', width='200', height='124')
