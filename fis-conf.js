@@ -33,13 +33,24 @@ fis.match('*.es6', {
     rExt: '.js' // .es6 最终修改其后缀为 .js
 });
 
+//使用fis-parser-jade插件编译jade文件
+fis.config.set('modules.parser.jade', 'jade');
 
+// 单文件编译 带数据
+fis.match('posts.jade', {
+    parser: fis.plugin('jade-to-html', {
+        pretty: true,
+        // variables you want to give to the template complie function, JSON Format.
+        data: require('./posts.json')
+    }),
+    rExt: 'html'
+});
 
 
 
 /*  文件指纹 useHash */
 fis.media('prod').match('*.{html,js,css,png,gif}', {
-    useHash: true // 开启 md5 戳
+    useHash: false // 开启 md5 戳
 });
 
 
