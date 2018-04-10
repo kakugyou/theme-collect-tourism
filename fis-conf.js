@@ -71,6 +71,11 @@ fis.media('prod').match('*.png', {
     optimizer: fis.plugin('png-compressor')
 });
 
+//作用：压缩html
+fis.media('prod').match('*.html', {
+    optimizer: fis.plugin('html-minifier')
+});
+
 
 /* ---------------------------- 资源合并文件 ---------------------------- */
 
