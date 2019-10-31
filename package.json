@@ -8,7 +8,7 @@
   },
   "scripts": {
     "clean": "rimraf ./output && mkdir output",
-    "dev": "fis3 release",
+    "dev": "fis3 release -wl",
     "prod": "fis3 release prod",
     "build-dev": "npm run clean && npm run dev",
     "build-prod": "npm run clean && npm run prod",
