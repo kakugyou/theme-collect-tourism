@@ -1,4 +1,4 @@
-模版预览：https://kakugyou.github.io/theme-collect-tourism/index.html
+模版预览：http://tourism.kakugyou.org
 
 #Fis3 Conf 常用设置
 - 设置项目属性
