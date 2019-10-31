@@ -12,6 +12,7 @@
     "prod": "fis3 release prod",
     "build-dev": "npm run clean && npm run dev",
     "build-prod": "npm run clean && npm run prod",
+    "deploy": "gh-pages -d output",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "fis3-packager-deps-pack": "^0.1.2",
     "fis-parser-jade": "0.0.12",
     "fis-parser-jade-to-html": "0.0.2",
+    "gh-pages": "^1.0.0",
     "jade-highlighter": "^2.0.0",
     "jade-to-html": "^0.2.1",
     "npm-run-all": "^2.1.2",
