@@ -1,0 +1,65 @@
+{
+    "res": {
+        "static/css/font-awesome.min.css": {
+            "uri": "/static/css/font-awesome.min.css",
+            "type": "css"
+        },
+        "static/css/bootstrap.min.css": {
+            "uri": "/static/css/bootstrap.min.css",
+            "type": "css"
+        },
+        "static/css/animate.min.css": {
+            "uri": "/static/css/animate.min.css",
+            "type": "css"
+        },
+        "static/css/swiper.min.css": {
+            "uri": "/static/css/swiper.min.css",
+            "type": "css"
+        },
+        "static/css/global.css": {
+            "uri": "/static/css/global.css",
+            "type": "css"
+        },
+        "static/css/lib.css": {
+            "uri": "/static/css/lib.css",
+            "type": "css"
+        },
+        "static/css/style.css": {
+            "uri": "/static/css/style.css",
+            "type": "css"
+        },
+        "static/js/global.js": {
+            "uri": "/static/js/global.js",
+            "type": "js"
+        },
+        "static/js/cn.js": {
+            "uri": "/static/js/cn.js",
+            "type": "js"
+        },
+        "static/js/checkform.js": {
+            "uri": "/static/js/checkform.js",
+            "type": "js"
+        },
+        "static/js/jquery-1.9.1.min.js": {
+            "uri": "/static/js/jquery-1.9.1.min.js",
+            "type": "js"
+        },
+        "static/js/wow.min.js": {
+            "uri": "/static/js/wow.min.js",
+            "type": "js"
+        },
+        "static/js/bootstrap.min.js": {
+            "uri": "/static/js/bootstrap.min.js",
+            "type": "js"
+        },
+        "static/js/swiper.jquery.min.js": {
+            "uri": "/static/js/swiper.jquery.min.js",
+            "type": "js"
+        },
+        "static/js/website.js": {
+            "uri": "/static/js/website.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}
