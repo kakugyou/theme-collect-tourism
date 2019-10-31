@@ -6,10 +6,3 @@
 <link href="/static/css/lib.css" rel="stylesheet" type="text/css" />
 <link href="/static/css/style.css" rel="stylesheet" type="text/css" />
 
-<script src="/static/js/global.js"></script>
-<script src="/static/js/cn.js"></script>
-<script src="/static/js/checkform.js"></script>
-<script src="/static/js/jquery-1.9.1.min.js"></script>
-<script src="/static/js/wow.min.js"></script>
-<script src="/static/js/bootstrap.min.js"></script>
-<script src="/static/js/swiper.jquery.min.js"></script>
