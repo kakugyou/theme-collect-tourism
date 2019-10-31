@@ -1,5 +1,4 @@
-﻿/*js代码(www.jsdaima.com)是IT资源下载与IT技能学习平台。我们拒绝滥竽充数，只提供精品IT资源！*/
-/*隐藏价格*/
+﻿/*隐藏价格*/
 .price_item_USD, .price_item_EUR, .price_item_GBP, .price_item_AUD, .price_item_CAD, .price_item_SGD, .price_item_JPY, .price_item_HKD, .price_item_THB, .price_item_TWD {
 	display: none;
 }
