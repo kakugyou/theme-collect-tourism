@@ -37,14 +37,14 @@ fis.match('*.es6', {
 fis.config.set('modules.parser.jade', 'jade');
 
 // 单文件编译 带数据
-fis.match('posts.jade', {
-    parser: fis.plugin('jade-to-html', {
-        pretty: true,
-        // variables you want to give to the template complie function, JSON Format.
-        data: require('./posts.json')
-    }),
-    rExt: 'html'
-});
+//fis.match('posts.jade', {
+//    parser: fis.plugin('jade-to-html', {
+//        pretty: true,
+//        // variables you want to give to the template complie function, JSON Format.
+//        data: require('./posts.json')
+//    }),
+//    rExt: 'html'
+//});
 
 
 
