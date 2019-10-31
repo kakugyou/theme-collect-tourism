@@ -1,3 +1,5 @@
+模版预览：https://kakugyou.github.io/theme-collect-tourism/index.html
+
 #Fis3 Conf 常用设置
 - 设置项目属性
 - 内置语法
